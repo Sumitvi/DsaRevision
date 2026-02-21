@@ -18,7 +18,11 @@ public class MaxSumSubArrays {
         int maxSum = sum;
 
         while(right < arr.length - 1){
-            
+            sum = sum - arr[left];
+            left++;
+            right++;
+            sum = sum + arr[right];
+            maxSum = Math.max(maxSum , sum);
         }
 
     }
