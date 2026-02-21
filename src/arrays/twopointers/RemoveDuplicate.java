@@ -12,7 +12,7 @@ public class RemoveDuplicate {
         if(arr.length <= 2) System.out.println(arr.length);
 
         int i = 2;
-        
+
         for(int j=2; j<arr.length; j++){
 
             if(arr[j] != arr[i-2]){
