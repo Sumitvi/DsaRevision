@@ -1,5 +1,7 @@
 package arrays.basic;
 
+import java.util.Arrays;
+
 public class MoveZero {
 
     public static void main(String[] args) {
@@ -22,7 +24,7 @@ public class MoveZero {
         }
 
 
-        System.out.println(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
 }
