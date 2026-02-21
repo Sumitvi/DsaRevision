@@ -20,6 +20,6 @@ public class KadaneAlgo {
             }
         }
 
-        System.out.println("Maximum Sum : "+ max);
+        System.out.println("Maximum Sum : "+  max);
     }
 }
