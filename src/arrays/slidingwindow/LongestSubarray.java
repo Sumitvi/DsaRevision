@@ -34,7 +34,18 @@ public class LongestSubarray {
 
 
         for(int i=0; i<arr.length; i++){
-            
+
+            prefixSum+=arr[i];
+
+            if(prefixSum == k){
+                maxLen = i + 1;
+            }
+
+            if(map.containsKey(prefixSum-k)){
+                int len = i - map.get(prefixSum - k);
+                maxLen = Math
+            }
+
         }
     }
 }
