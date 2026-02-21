@@ -26,6 +26,11 @@ public class CountSubArrays {
         }
 
         System.out.println("No of Subarrays is " + count);
+
+
+//        Optimal Approach - Using Sliding Window
+
+
     }
 }
 
