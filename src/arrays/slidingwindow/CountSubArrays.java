@@ -8,6 +8,7 @@ public class CountSubArrays {
 
         int arr[] = {10, 2, -2, -20, 10};
         int k = -10;
+        int count = 0;
 //        ans is 3
 
 //        Brute Force
@@ -16,10 +17,15 @@ public class CountSubArrays {
 
             for(int j=i; j<arr.length; j++){
                 sum+=arr[j];
-                
+
+                if(sum == k){
+                    count++;
+                }
             }
 
         }
+
+        System.out.println("Count is " + count);
     }
 }
 
