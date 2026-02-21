@@ -34,7 +34,13 @@ public class TwoSum {
 
             int comp = target - arr[i];
 
+            if(map.containsKey(comp)){
+                System.out.println("Yes");
+                break;
+            }
             
+
+
 
         }
 
