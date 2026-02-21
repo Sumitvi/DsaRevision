@@ -18,10 +18,11 @@ public class MoveZero {
         }
 
         while(count < arr.length){
-            
+            arr[count++] = 0;
         }
 
 
+        System.out.println(arr);
     }
 
 }
