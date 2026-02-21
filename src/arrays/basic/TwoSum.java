@@ -9,8 +9,8 @@ public class TwoSum {
 
 //     using two pointers - Brute Force
 
-//        int arr[] = {2,6,5,8,11};
-//        int target = 14;
+        int arr[] = {2,6,5,8,11};
+        int target = 14;
 //        ArrayList<Integer> res = new ArrayList<>();
 //
 //        for(int i=0; i<arr.length; i++){
@@ -30,7 +30,11 @@ public class TwoSum {
 
         HashMap<Integer , Integer> map = new HashMap<>();
 
-        
+        for(int i=0; i<arr.length; i++){
+
+        }
+
+
 
 
 
