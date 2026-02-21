@@ -34,6 +34,12 @@ public class sort012 {
             }
         }
 
+        int idx = 0;
+        
+        for(int i=0; i<c0; i++){
+            arr[idx] = 0;
+        }
+
 
 
 
