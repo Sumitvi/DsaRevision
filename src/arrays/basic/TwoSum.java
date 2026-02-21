@@ -1,6 +1,7 @@
 package arrays.basic;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class TwoSum {
 
@@ -8,22 +9,29 @@ public class TwoSum {
 
 //     using two pointers - Brute Force
 
-        int arr[] = {2,6,5,8,11};
-        int target = 14;
-        ArrayList<Integer> res = new ArrayList<>();
+//        int arr[] = {2,6,5,8,11};
+//        int target = 14;
+//        ArrayList<Integer> res = new ArrayList<>();
+//
+//        for(int i=0; i<arr.length; i++){
+//
+//            for(int j=i+1; j<arr.length; j++){
+//
+//                if(arr[i] + arr[j] == target){
+//                    res.add(i);
+//                    res.add(j);
+//                }
+//            }
+//        }
+//
+//        System.out.println(res);
 
-        for(int i=0; i<arr.length; i++){
+//        using HashMap
 
-            for(int j=i+1; j<arr.length; j++){
+        HashMap<Integer , Integer> map = new HashMap<>();
 
-                if(arr[i] + arr[j] == target){
-                    res.add(i);
-                    res.add(j);
-                }
-            }
-        }
+        
 
-        System.out.println(res);
 
 
 
