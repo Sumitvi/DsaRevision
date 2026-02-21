@@ -17,6 +17,10 @@ public class MoveZero {
             }
         }
 
+        while(count < arr.length){
+            
+        }
+
 
     }
 
