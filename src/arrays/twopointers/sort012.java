@@ -48,6 +48,7 @@ public class sort012 {
             arr[idx++] = 2;
         }
 
+        System.out.println(Arrays.toString(arr));
 
 
 
