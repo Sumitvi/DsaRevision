@@ -16,7 +16,13 @@ public class sort012 {
 //        Better Approach
         int c0 = 0 , c1 = 0 , c2 = 0;
 
-        
+        for(int i=0; i<arr.length; i++){
+           if(arr[i]==0){
+               c0+=1;
+           }
+        }
+
+
 
 
     }
