@@ -25,5 +25,7 @@ public class MaxSumSubArrays {
             maxSum = Math.max(maxSum , sum);
         }
 
+        System.out.println(maxSum);
+
     }
 }
