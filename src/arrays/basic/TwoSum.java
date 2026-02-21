@@ -1,0 +1,32 @@
+package arrays.basic;
+
+import java.util.ArrayList;
+
+public class TwoSum {
+
+    public static void main(String args[]){
+
+//     using two pointers - Brute Force
+
+        int arr[] = {2,6,5,8,11};
+        int target = 14;
+        ArrayList<Integer> res = new ArrayList<>();
+
+        for(int i=0; i<arr.length; i++){
+
+            for(int j=i+1; j<arr.length; j++){
+
+                if(arr[i] + arr[j] == target){
+                    res.add(i);
+                    res.add(j);
+                }
+            }
+        }
+
+        System.out.println(res);
+
+
+
+
+    }
+}
