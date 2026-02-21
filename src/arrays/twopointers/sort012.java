@@ -28,6 +28,12 @@ public class sort012 {
             }
         }
 
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]==2){
+                c2+=1;
+            }
+        }
+
 
 
 
