@@ -43,9 +43,15 @@ public class LongestSubarray {
 
             if(map.containsKey(prefixSum-k)){
                 int len = i - map.get(prefixSum - k);
-                maxLen = Math
+                maxLen = Math.max(maxLen , len);
+            }
+
+            if(!map.containsKey(prefixSum)){
+                map.put(prefixSum , i);
             }
 
         }
+
+        
     }
 }
