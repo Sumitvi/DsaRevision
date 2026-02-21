@@ -19,7 +19,7 @@ public class LongestSubarray {
                 sum+=arr[j];
 
                 if(sum == k){
-                    count 
+                    count = Math.max(count , j-i+1);
                 }
             }
         }
