@@ -17,6 +17,8 @@ public class ContainerMostWater {
 
             if(arr[left] < arr[right]){
                 left+=1;
+            }else{
+                
             }
 
         }
