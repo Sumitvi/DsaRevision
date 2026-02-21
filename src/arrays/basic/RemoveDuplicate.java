@@ -13,8 +13,10 @@ public class RemoveDuplicate {
         HashSet<Integer> set = new HashSet<>();
 
         for(int data : arr){
-            set.add
+            set.add(data);
         }
+
+        System.out.println(set);
 
     }
 }
