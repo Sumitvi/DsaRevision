@@ -52,6 +52,7 @@ public class LongestSubarray {
 
         }
 
-        
+        System.out.println(maxLen);
+
     }
 }
