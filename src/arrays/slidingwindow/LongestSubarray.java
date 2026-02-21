@@ -1,5 +1,7 @@
 package arrays.slidingwindow;
 
+import java.util.HashMap;
+
 public class LongestSubarray {
 
     public static void main(String args[]){
@@ -9,21 +11,30 @@ public class LongestSubarray {
         int k = 15;
 
 //        Brute Force
-        int count = 0;
+//        int count = 0;
+//
+//        for(int i=0; i<arr.length; i++){
+//            int sum = 0;
+//
+//            for(int j=i; j<arr.length; j++){
+//
+//                sum+=arr[j];
+//
+//                if(sum == k){
+//                    count = Math.max(count , j-i+1);
+//                }
+//            }
+//        }
+//
+//        System.out.println(count);
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int maxLen = 0;
+        int prefixSum = 0;
+
 
         for(int i=0; i<arr.length; i++){
-            int sum = 0;
-
-            for(int j=i; j<arr.length; j++){
-
-                sum+=arr[j];
-
-                if(sum == k){
-                    count = Math.max(count , j-i+1);
-                }
-            }
+            
         }
-
-        System.out.println(count);
     }
 }
