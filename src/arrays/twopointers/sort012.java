@@ -22,6 +22,12 @@ public class sort012 {
            }
         }
 
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]==1){
+                c1+=1;
+            }
+        }
+
 
 
 
