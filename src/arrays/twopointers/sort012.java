@@ -10,10 +10,13 @@ public class sort012 {
         int arr[] = {0, 1, 2, 0, 1, 2};
 
 //        Complexity - O(n lon n)
-        Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
-        
+//        Arrays.sort(arr);
+//        System.out.println(Arrays.toString(arr));
+
 //        Better Approach
+        int c0 = 0 , c1 = 0 , c2 = 0;
+
+        
 
 
     }
