@@ -27,12 +27,13 @@ public class KokoEating {
 
     }
 
-    public boolean ICanEat(int piles[] , int h , int speed){
+    public static boolean ICanEat(int piles[], int h, int speed){
         int hours = 0;
 
         for(int pile : piles){
-            
+            hours+=(int) Math.ceil((double) pile/speed);
         }
+        return hours<=h;
     }
 }
 
