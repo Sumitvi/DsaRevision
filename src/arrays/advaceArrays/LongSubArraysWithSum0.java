@@ -1,5 +1,7 @@
 package arrays.advaceArrays;
 
+import java.util.HashMap;
+
 public class LongSubArraysWithSum0 {
 
     public static void main(String[] args) {
@@ -25,11 +27,12 @@ public class LongSubArraysWithSum0 {
 
 //        OPTIMAL USING PREFIX SUM + HASHMAP
         int arr[] = {15, -2, 2, -8, 1, 7, 10};
+        HashMap<Integer, Integer> map = new HashMap<>();
         int prefixSum = 0;
         int maxLen = 0;
 
         for(int i=0; i<arr.length; i++){
-            
+
         }
 
 
