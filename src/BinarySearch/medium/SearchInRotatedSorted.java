@@ -17,7 +17,7 @@ public class SearchInRotatedSorted {
 
         for(Map.Entry<Integer, Integer> entry: map.entrySet()){
             if(entry.getValue()==1){
-                System.out.println();
+                System.out.println(entry.getKey());
             }
         }
 
