@@ -9,12 +9,26 @@ public class OccurOfEle {
         int x = 3;
         int count = 0;
 
-        for(int i=0; i<arr.length; i++){
+        /*Brute Force Approach */
+       /* for(int i=0; i<arr.length; i++){
             if(arr[i]==x){
                 count++;
             }
         }
 
-        System.out.println("Occurs of Element is :"+ count);
+        System.out.println("Occurs of Element is :"+ count);*/
+
+        int start = 0 , end = arr.length-1;
+
+        while(start <= end){
+            int mid = start + (end - start)/2;
+
+            if(arr[mid] == x){
+                count++;
+            }else{
+                
+            }
+        }
+
     }
 }
