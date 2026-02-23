@@ -17,7 +17,7 @@ public class BuyAndSellStocks {
             maxPri = Math.max(maxPri , prices[i] - minPri);
         }
 
-
+        System.out.println("The Maximum Profit is : "+ maxPri);
 
 
     }
