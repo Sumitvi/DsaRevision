@@ -12,7 +12,18 @@ public class Sqrt {
         while(start <= end){
 
             int mid = start + (end - start)/2;
-            
+            int square = mid * mid;
+
+            if(square == x){
+                System.out.println(mid);
+                break;
+            }else if(square < x){
+                ans = mid;
+                start = mid + 1;
+            }else {
+                
+            }
+
         }
     }
 }
