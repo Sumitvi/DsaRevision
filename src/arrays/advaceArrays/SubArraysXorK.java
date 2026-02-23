@@ -21,6 +21,7 @@ public class SubArraysXorK {
             }
         }
 
+        System.out.println(res);
 
     }
 }
