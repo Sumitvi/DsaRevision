@@ -8,6 +8,14 @@ public class SubArraysXorK {
         int k = 6;
         int res = 0;
 
+        for(int i=0; i<arr.length; i++){
+            int preXor = 0;
+
+            for(int j=i; j<arr.length; j++){
+                
+            }
+        }
+
 
     }
 }
