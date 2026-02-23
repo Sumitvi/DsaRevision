@@ -18,5 +18,7 @@ public class LongSubArraysWithSum0 {
                 }
             }
         }
+
+        System.out.println("Max Subarrays with sum 0 is : "+ maxLen);
     }
 }
