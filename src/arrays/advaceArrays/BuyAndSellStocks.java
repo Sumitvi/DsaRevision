@@ -12,7 +12,9 @@ public class BuyAndSellStocks {
         int maxPri = 0;
 
         for(int i=0; i<prices.length; i++){
-            
+
+            minPri = Math.min(minPri , prices[i]);
+
         }
 
 
