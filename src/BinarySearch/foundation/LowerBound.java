@@ -35,8 +35,19 @@ public class LowerBound {
             int mid = start + (end - start)/2;
 
             if(arr[mid] >= target){
-                
+                System.out.println("Lower Bound Index : "+ mid);
+                found = true;
+                break;
+            }else if(arr[mid] < target){
+                start = mid + 1;
+            }else{
+                end = mid - 1;
             }
+        }
+
+
+        if(!found){
+            System.out.println("Lower Bound Index :"+ arr.length);
         }
     }
 }
