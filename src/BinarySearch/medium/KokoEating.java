@@ -26,6 +26,14 @@ public class KokoEating {
 
 
     }
+
+    public boolean ICanEat(int piles[] , int h , int speed){
+        int hours = 0;
+
+        for(int pile : piles){
+            
+        }
+    }
 }
 
 //Brute Force
