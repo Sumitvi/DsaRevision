@@ -36,6 +36,8 @@ public class LongSubArraysWithSum0 {
 
             if(map.containsKey(prefixSum)){
                 int preInd = map.get(prefixSum);
+                int length = i - preInd;
+                maxLen = Math.max(maxLen , length);
             }
 
         }
