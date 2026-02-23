@@ -11,7 +11,11 @@ public class BuyAndSellStocks {
         int minPri = Integer.MIN_VALUE;
         int maxPri = 0;
 
-        
+        for(int i=0; i<prices.length; i++){
+            
+        }
+
+
 
 
     }
