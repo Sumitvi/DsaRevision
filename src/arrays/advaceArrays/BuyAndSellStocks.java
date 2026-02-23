@@ -8,7 +8,7 @@ public class BuyAndSellStocks {
 //        Buy at min Price
 //        Sell at maxPrice
         int prices[] = {7,1,5,3,6,4};
-        int minPri = Integer.MIN_VALUE;
+        int minPri = Integer.MAX_VALUE;
         int maxPri = 0;
 
         for(int i=0; i<prices.length; i++){
