@@ -21,9 +21,11 @@ public class Sqrt {
                 ans = mid;
                 start = mid + 1;
             }else {
-                
+                end = mid - 1;
             }
 
         }
+
+        System.out.println(ans);
     }
 }
