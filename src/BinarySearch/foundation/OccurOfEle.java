@@ -19,16 +19,23 @@ public class OccurOfEle {
         System.out.println("Occurs of Element is :"+ count);*/
 
         int start = 0 , end = arr.length-1;
+        int ans = -1;
+
 
         while(start <= end){
             int mid = start + (end - start)/2;
 
             if(arr[mid] == x){
-                count++;
-            }else{
-                
+                ans = mid;
+                end = mid - 1;
+            }else if(arr[mid] < x){
+                start = mid + 1;
+            }else {
+                end = mid - 1;
             }
         }
+
+        System.out.println(ans);
 
     }
 }
