@@ -12,7 +12,12 @@ public class SubArraysXorK {
             int preXor = 0;
 
             for(int j=i; j<arr.length; j++){
-                
+
+                preXor = preXor ^ arr[j];
+
+                if(preXor == k){
+                    res++;
+                }
             }
         }
 
