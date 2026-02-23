@@ -12,10 +12,17 @@ public class KokoEating {
             maxSpeed = Math.max(maxSpeed , piles[i]);
         }
 
-        while (minSpeed <= maxSpeed){
+        while (minSpeed < maxSpeed){
             int mid = minSpeed + (maxSpeed - minSpeed)/2;
+
+            if(ICanEat(piles , h , mid)){
+                maxSpeed = mid;
+            }else{
+                minSpeed = mid + 1;
+            }
         }
 
+        System.out.println("Max Speed is "+ maxSpeed);
 
 
     }
