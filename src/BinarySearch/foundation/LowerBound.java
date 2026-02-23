@@ -17,7 +17,7 @@ public class LowerBound {
         for(int i=0; i<arr.length; i++){
             if(arr[i] >= target){
                 System.out.println("Lower Bound Index : "+ i);
-                found = false;
+                found = true;
                 break;
             }
         }
