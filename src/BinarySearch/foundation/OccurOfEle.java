@@ -15,6 +15,6 @@ public class OccurOfEle {
             }
         }
 
-        System.out.println();
+        System.out.println("Occurs of Element is :"+ count);
     }
 }
