@@ -7,9 +7,10 @@ public class LongSubArraysWithSum0 {
 //        longest Subarrays with sum equals to zero
         int arr[] = {15, -2, 2, -8, 1, 7, 10};
         int maxLen = 0;
-        int sum = 0;
 
         for(int i=0; i<arr.length; i++){
+            int sum = 0;
+
             for (int j=i; j<arr.length; j++){
                 sum+=arr[j];
 
