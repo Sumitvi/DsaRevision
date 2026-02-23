@@ -15,10 +15,11 @@ public class SearchX {
 
             if(arr[mid] == target){
                 System.out.println(mid);
+                break;
             }else if(arr[mid] < target){
                 start = mid + 1;
             }else{
-                
+                end = mid - 1;
             }
         }
 
