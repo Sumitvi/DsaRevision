@@ -3,8 +3,13 @@ package BinarySearch.medium;
 public class KokoEating {
     public static void main(String[] args) {
 
+        int piles [] = {3,6,7,11};
+        int h = 8;
         int minSpeed = 1;
+        int maxSpeed = 0;
+
         
+
 
 
     }
