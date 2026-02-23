@@ -15,7 +15,11 @@ public class SearchX {
 
             if(arr[mid] == target){
                 System.out.println(mid);
-            }else if()
+            }else if(arr[mid] < target){
+                start = mid + 1;
+            }else{
+                
+            }
         }
 
 
