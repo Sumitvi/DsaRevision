@@ -8,7 +8,13 @@ public class KokoEating {
         int minSpeed = 1;
         int maxSpeed = 0;
 
-        
+        for(int i=0; i<piles.length; i++){
+            maxSpeed = Math.max(maxSpeed , piles[i]);
+        }
+
+        while (minSpeed <= maxSpeed){
+            int mid = minSpeed + (maxSpeed - minSpeed)/2;
+        }
 
 
 
