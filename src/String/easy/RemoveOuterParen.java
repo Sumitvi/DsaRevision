@@ -16,6 +16,10 @@ public class RemoveOuterParen {
             if(s.charAt(i)==')'){
                 count++;
             }
+
+            if(s.charAt(i)!=0){
+                sb.append(s.charAt(i));
+            }
         }
     }
 }
