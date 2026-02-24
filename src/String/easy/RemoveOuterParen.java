@@ -3,6 +3,8 @@ package String.easy;
 public class RemoveOuterParen {
     public static void main(String[] args) {
 
+        String s = "(()())(())";
+        System.out.println(ParenthesisRemove(s));
 
     }
 
@@ -14,12 +16,18 @@ public class RemoveOuterParen {
         for(int i=0; i<s.length(); i++){
 
             if(s.charAt(i)==')'){
-                count++;
+                count--;
             }
 
             if(s.charAt(i)!=0){
                 sb.append(s.charAt(i));
             }
+
+            if(s.charAt(i)=='('){
+                count++;
+            }
         }
+
+        return sb.toString();
     }
 }
