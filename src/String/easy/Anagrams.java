@@ -8,6 +8,8 @@ public class Anagrams {
         /*Output: true
         Explanation: Both the string have same characters with
         same frequency. So, they are anagrams.*/
+
+        char ch1[] = s1.toCharArray();
         
 
 
