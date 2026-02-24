@@ -9,6 +9,8 @@ public class LongestCommonPrefix {
 //        Longest Common Prefix
         String strs[] = {"flower","flow","flight"};
         Arrays.sort(strs);
-        System.out.println(Arrays.toString(strs));
+//        System.out.println(Arrays.toString(strs));
+        String str1 = strs[0];
+        String str2 = strs[strs.length-1];
     }
 }
