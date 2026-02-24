@@ -45,6 +45,10 @@ public class Anagrams {
             map.put(ch , map.getOrDefault(ch , 0) + 1);
         }
 
+        for(char ch : s2.toCharArray()){
+            
+        }
+
         return true;
     }
 }
