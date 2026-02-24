@@ -46,7 +46,13 @@ public class Anagrams {
         }
 
         for(char ch : s2.toCharArray()){
-            
+            map.put(ch , map.getOrDefault(ch , 0)-1);
+        }
+
+        for(var pair : map.entrySet()){
+            if(pair.getValue()!=0){
+                return false;
+            }
         }
 
         return true;
