@@ -39,7 +39,11 @@ public class Anagrams {
             return false;
         }
 
-        HashMap<Character , Integer>
+        HashMap<Character , Integer> map = new HashMap<>();
+
+        for(char ch : s1.toCharArray()){
+            
+        }
 
         return true;
     }
