@@ -1,8 +1,9 @@
 package BinarySearch.medium;
 
-public class MinimumDays {
+public class Capacity {
     public static void main(String[] args) {
 
-//        Minimum Days to Make M Bouquets
+//       Capacity to Ship Packages Within D Days
+
     }
 }
