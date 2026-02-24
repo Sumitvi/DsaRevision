@@ -21,7 +21,7 @@ public class Anagrams {
         Arrays.sort(ch1);
         Arrays.sort(ch2);
 
-        System.out.println(Arrays.compare(ch1 , ch2));
+        System.out.println(Arrays.equals(ch1 , ch2));
 
 
 
