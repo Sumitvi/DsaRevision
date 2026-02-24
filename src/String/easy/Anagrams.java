@@ -5,8 +5,8 @@ import java.util.Arrays;
 public class Anagrams {
     public static void main(String[] args) {
 
-        String s1 = "geeks";
-        String s2 = "kseeg";
+        String s1 = "allergy";
+        String s2 = "allergyy";
 
         if(s1.length()!=s2.length()){
             System.out.println("False");
