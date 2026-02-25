@@ -29,6 +29,12 @@ public class ImplementAtoi {
             if(num * sign > Integer.MAX_VALUE){
                 return  Integer.MAX_VALUE;
             }
+
+            if(num * sign < Integer.MIN_VALUE){
+                return Integer.MIN_VALUE;
+            }
+
+            i++;
         }
 
 
