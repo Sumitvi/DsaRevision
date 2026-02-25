@@ -5,7 +5,7 @@ public class RomanToInt {
 
 //         Roman to Integer
         String s = "LVIII";
-        System.out.println(RomanToInt(s));
+        System.out.println(new RomanToInt(s));
 
     }
 
@@ -40,7 +40,7 @@ public class RomanToInt {
         for(int i=0; i<n; i++){
 
             char ch1 = s.charAt(i);
-            if(i < n && getVal(ch1) < getVal(s.charAt(i+1))){
+            if(i + 1 < n && getVal(ch1) < getVal(s.charAt(i+1))){
                 sum = sum - getVal(ch1);
             }else{
                 sum = sum + getVal(ch1);
