@@ -11,6 +11,11 @@ public class RotateString {
     static String StringRotate(String s){
 //        using String Builder
         StringBuilder sb = new StringBuilder();
-        
+        int n = s.length();
+
+        for(int i=n-1; i>=0; i--){
+            sb.append(s.charAt(i));
+        }
+
     }
 }
