@@ -15,7 +15,13 @@ public class RomanToInt {
         int sum = 0;
 
         for(int i=0; i<n; i++){
-            
+
+            char ch1 = s.charAt(i);
+            if(i < n && getVal(ch1) < getVal(s.charAt(i+1))){
+                sum = sum - getVal(ch1);
+            }else{
+                sum = sum + getVal(ch1);
+            }
         }
 
     }
