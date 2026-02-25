@@ -4,8 +4,9 @@ public class RomanToInt {
     public static void main(String[] args) {
 
 //         Roman to Integer
-        String s = "LVIII";
-        System.out.println(new RomanToInt(s));
+//        String s = "LVIII";
+        String s = "MCMXCIV";
+        System.out.println(RomToInt(s));
 
     }
 
