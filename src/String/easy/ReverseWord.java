@@ -3,6 +3,9 @@ package String.easy;
 public class ReverseWord {
     public static void main(String[] args) {
 
+        String s = "the sky is blue";
+        System.out.println(RevWord(s));
+
     }
 
 
@@ -10,8 +13,9 @@ public class ReverseWord {
 
         String word[] = s.split(" +");
         StringBuilder sb = new StringBuilder();
+        int n = word.length;
 
-        for(int i=s.length()-1; i>=0; i--){
+        for(int i=n-1; i>=0; i--){
             sb.append(word[i]);
             sb.append(" ");
         }
