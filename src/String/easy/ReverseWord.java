@@ -16,5 +16,7 @@ public class ReverseWord {
             sb.append(" ");
         }
 
+        return sb.toString().trim();
+
     }
 }
