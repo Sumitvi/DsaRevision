@@ -3,6 +3,8 @@ package String.easy;
 public class ImplementAtoi {
     public static void main(String[] args) {
 
+        String s = " -042";
+        System.out.println(StringToInteger(s));
 
     }
 
@@ -37,6 +39,7 @@ public class ImplementAtoi {
             i++;
         }
 
+            return (int) (sign * num);
 
 
     }
