@@ -5,6 +5,7 @@ public class RotateString {
 
 //        Rotate String
         String s = "Sumit";
+        System.out.println(StringRotate(s));
 
     }
 
