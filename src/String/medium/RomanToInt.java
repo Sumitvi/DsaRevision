@@ -7,6 +7,10 @@ public class RomanToInt {
 
     }
 
+    static int getVal(char ch){
+        
+    }
+
 
 
     static int RomToInt(String s){
@@ -23,6 +27,8 @@ public class RomanToInt {
                 sum = sum + getVal(ch1);
             }
         }
+
+        return sum;
 
     }
 
