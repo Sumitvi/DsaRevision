@@ -17,5 +17,7 @@ public class RotateString {
             sb.append(s.charAt(i));
         }
 
+        return sb.toString();
+
     }
 }
