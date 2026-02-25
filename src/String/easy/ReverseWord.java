@@ -12,7 +12,8 @@ public class ReverseWord {
         StringBuilder sb = new StringBuilder();
 
         for(int i=s.length()-1; i>=0; i--){
-            
+            sb.append(word[i]);
+            sb.append(" ");
         }
 
     }
