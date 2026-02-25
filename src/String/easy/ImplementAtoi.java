@@ -27,7 +27,7 @@ public class ImplementAtoi {
             num = num * 10 + (s.charAt(i) - '0');
 
             if(num * sign > Integer.MAX_VALUE){
-                
+                return  Integer.MAX_VALUE;
             }
         }
 
