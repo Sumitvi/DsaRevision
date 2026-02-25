@@ -7,6 +7,8 @@ public class ReverseWord {
 
 
     static String RevWord(String s){
+
+        String word[] = s.split(" +");
         
     }
 }
