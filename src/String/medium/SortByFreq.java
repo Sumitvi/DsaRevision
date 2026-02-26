@@ -8,7 +8,8 @@ import java.util.List;
 public class SortByFreq {
     public static void main(String[] args) {
 
-        
+        String s = "geeksforgeeks";
+        System.out.println(frequencySort(s));
 
 
     }
