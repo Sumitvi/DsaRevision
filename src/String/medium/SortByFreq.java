@@ -1,6 +1,7 @@
 package String.medium;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -20,7 +21,14 @@ public class SortByFreq {
             map.put(ch , map.getOrDefault(ch , 0) + 1);
         }
 
-        List<Character> list = new ArrayList<>();
+        List<Character> list = new ArrayList<>(map.keySet());
+
+        Collections.sort(list , (a , b)->{
+            int freqCom = map.get(a) - map.get(b);
+        }
+    })
+
+
 
 
 
