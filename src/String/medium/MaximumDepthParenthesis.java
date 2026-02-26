@@ -3,6 +3,9 @@ package String.medium;
 public class MaximumDepthParenthesis {
     public static void main(String[] args) {
 
+        String s = "()(())((()()))";
+        System.out.println(Depth(s));
+
     }
 
     static int Depth(String s){
