@@ -16,9 +16,14 @@ public class MaximumDepthParenthesis {
             }
 
             if(s.charAt(i)=='('){
-                
+             count++;
+            }
+
+            if(count > res){
+                res = count;
             }
         }
 
+        return res;
     }
 }
