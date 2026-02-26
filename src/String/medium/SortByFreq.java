@@ -1,6 +1,8 @@
 package String.medium;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class SortByFreq {
     public static void main(String[] args) {
@@ -12,11 +14,13 @@ public class SortByFreq {
 
         // storing in hashMap by managing freq
         HashMap<Character , Integer > map = new HashMap<>();
-      
+
         for(int i=0; i<s.length(); i++){
             char ch = s.charAt(i);
             map.put(ch , map.getOrDefault(ch , 0) + 1);
         }
+
+        List<Character> list = new ArrayList<>();
 
 
 
