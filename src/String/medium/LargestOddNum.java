@@ -3,7 +3,8 @@ package String.medium;
 public class LargestOddNum {
     public static void main(String[] args) {
 
-        String s = 
+        String s = "504";
+        System.out.println(maxOdd(s));
 
     }
 
