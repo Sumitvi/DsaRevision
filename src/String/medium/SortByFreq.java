@@ -33,6 +33,13 @@ public class SortByFreq {
             return freqCom;
         });
 
+//        Storing into Sb
+
+        StringBuilder sb = new StringBuilder();
+
+        for(char ch : list){
+            
+        }
 
 
 
