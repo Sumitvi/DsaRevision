@@ -6,7 +6,10 @@ public class LongestPalindromeSubstring {
 
     }
 
-    static boolean isPalindrome(String s){
-        
+    static boolean isPalindrome(String s , int i , int j){
+
+        while(i < j){
+            
+        }
     }
 }
