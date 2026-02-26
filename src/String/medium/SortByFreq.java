@@ -12,9 +12,12 @@ public class SortByFreq {
 
         // storing in hashMap by managing freq
         HashMap<Character , Integer > map = new HashMap<>();
-
+      
         for(int i=0; i<s.length(); i++){
             char ch = s.charAt(i);
             map.put(ch , map.getOrDefault(ch , 0) + 1);
         }
+
+
+
 }
