@@ -3,6 +3,8 @@ package String.medium;
 public class LongestPalindromeSubstring {
     public static void main(String[] args) {
 
+        String s = "forgeeksskeegfor";
+
 
     }
 
@@ -20,5 +22,9 @@ public class LongestPalindromeSubstring {
         }
 
         return true;
+    }
+
+    static boolean findPalindrome(String s){
+        
     }
 }
