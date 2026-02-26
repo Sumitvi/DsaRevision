@@ -38,7 +38,11 @@ public class SortByFreq {
         StringBuilder sb = new StringBuilder();
 
         for(char ch : list){
-            
+            int freq = map.get(ch);
+
+            for(int i=0; i<freq; i++){
+                sb.append(ch);
+            }
         }
 
 
