@@ -9,6 +9,16 @@ public class MaximumDepthParenthesis {
         int n = s.length();
         int res = 0 , count = 0;
 
-        
+        for(int i=0; i<n; i++){
+
+            if(s.charAt(i)==')'){
+                count--;
+            }
+
+            if(s.charAt(i)=='('){
+                
+            }
+        }
+
     }
 }
