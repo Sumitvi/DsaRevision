@@ -23,10 +23,15 @@ public class SortByFreq {
 
         List<Character> list = new ArrayList<>(map.keySet());
 
-        Collections.sort(list , (a , b)->{
+        Collections.sort(list, (a, b) -> {
             int freqCom = map.get(a) - map.get(b);
-        }
-    })
+
+            if (freqCom == 0) {
+                return a - b;
+            }
+
+            return freqCom;
+        });
 
 
 
