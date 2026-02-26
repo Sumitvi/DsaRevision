@@ -1,9 +1,12 @@
 package String.medium;
 
 public class LongestPalindromeSubstring {
+
+
     public static void main(String[] args) {
 
         String s = "forgeeksskeegfor";
+
 
 
     }
@@ -24,13 +27,23 @@ public class LongestPalindromeSubstring {
         return true;
     }
 
-    static boolean findPalindrome(String s){
+    int max = 0 , start = 0 , end = 0;
+     boolean findPalindrome(String s){
         int n = s.length();
 
         for(int i=0; i<n; i++){
             for(int j=i; j<n; j++){
-                
+
+                if(isPalindrome(s , i , j) == true){
+                    if((j-i+1) > max){
+                        max = j-i+1;
+                        start = i;
+                        end = j;
+                    }
+                }
             }
         }
+
+        
     }
 }
