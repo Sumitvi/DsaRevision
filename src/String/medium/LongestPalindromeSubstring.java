@@ -7,6 +7,7 @@ public class LongestPalindromeSubstring {
 
         String s = "forgeeksskeegfor";
 
+        System.out.println(findPalindrome(s));
 
 
     }
@@ -27,8 +28,8 @@ public class LongestPalindromeSubstring {
         return true;
     }
 
-    int max = 0 , start = 0 , end = 0;
-     boolean findPalindrome(String s){
+   static int max = 0 , start = 0 , end = 0;
+    static String findPalindrome(String s){
         int n = s.length();
 
         for(int i=0; i<n; i++){
@@ -44,6 +45,7 @@ public class LongestPalindromeSubstring {
             }
         }
 
-        
+        return s.substring(start , end + 1);
+
     }
 }
