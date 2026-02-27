@@ -68,20 +68,23 @@ public class LlImplenetation {
 
     public static void main(String[] args) {
 
+//        LlImplenetation ll = new LlImplenetation();
+//        ll.addFirst(5);
+//        ll.addFirst(4);
+//
+//        ll.addLast(1);
+//        ll.addLast(2);
+//
+////       print a ll
+//        Node temp = head;
+//
+//        while(temp != null){
+//            System.out.println(temp.data);
+//            temp = temp.next;
+//        }
+
         LlImplenetation ll = new LlImplenetation();
-        ll.addFirst(5);
-        ll.addFirst(4);
-
-        ll.addLast(1);
-        ll.addLast(2);
-
-//       print a ll
-        Node temp = head;
-
-        while(temp != null){
-            System.out.println(temp.data);
-            temp = temp.next;
-        }
+        
 
 
     }
