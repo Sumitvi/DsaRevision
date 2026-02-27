@@ -37,6 +37,11 @@ public class LlImplenetation {
 //        Create a New Node
         Node newNode = new Node(data);
 
+//        check if the ll is empty
+        if(head == null){
+            head = tail = newNode;
+        }
+
     }
 
 
