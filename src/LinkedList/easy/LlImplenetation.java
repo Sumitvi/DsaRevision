@@ -50,6 +50,10 @@ public class LlImplenetation {
 
     public static void main(String[] args) {
 
+        LlImplenetation ll = new LlImplenetation();
+        ll.addFirst(5);
+        ll.addFirst(4);
+        
 
 
     }
