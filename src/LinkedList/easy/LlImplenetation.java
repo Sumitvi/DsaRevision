@@ -57,6 +57,13 @@ public class LlImplenetation {
         ll.addLast(1);
         ll.addLast(2);
 
+//       print a ll
+        Node temp = head;
+
+        while(temp != null){
+            
+        }
+
 
     }
 }
