@@ -15,7 +15,8 @@ public class Test {
         System.out.println(ll);
         System.out.println(ll.size());
         System.out.println(ll.get(2));
-        
+        System.out.println(ll.getFirst());
+
 
     }
 }
