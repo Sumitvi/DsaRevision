@@ -54,8 +54,11 @@ public class LlImplenetation {
         int i=0;
 
         while( i < idx-1 ){
-            
+            temp = temp.next;
+            i++;
         }
+
+        
     }
 
 
