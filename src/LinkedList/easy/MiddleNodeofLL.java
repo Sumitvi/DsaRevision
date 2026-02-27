@@ -22,7 +22,7 @@ public class MiddleNodeofLL {
 
     }
 
-    public static LlImplenetation.Node head;
+    public static Node head;
     public static LlImplenetation.Node tail;
 
     public static void main(String[] args) {
@@ -34,8 +34,10 @@ public class MiddleNodeofLL {
         ll.add(4);
         ll.add(5);
 
-        LlImplenetation.Node slow = head;
+        Node slow = head;
+        Node fast = head;
 
+        
 
 
     }
