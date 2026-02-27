@@ -92,7 +92,11 @@ public class LlImplenetation {
 
         ll.addInMiddle(3 , 2);
 
-        
+        Node temp = head;
+
+        while(temp!=null){
+            System.out.println(temp.data);
+        }
 
 
     }
