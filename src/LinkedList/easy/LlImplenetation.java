@@ -22,7 +22,7 @@ public class LlImplenetation {
         Node newNode = new Node(data);
 
         if(head == null){
-            head = tail = null;
+            head = tail = newNode;
             return;
         }
 
@@ -32,7 +32,13 @@ public class LlImplenetation {
     }
 
 
+    public void addLast(int data){
+        
+    }
+
+
     public static void main(String[] args) {
+
 
 
     }
