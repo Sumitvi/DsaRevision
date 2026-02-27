@@ -19,11 +19,19 @@ public class LlImplenetation {
 
     public void addFirst(int data){
 
+        Node newNode = new Node(data);
+
+        if(head == null){
+            head = tail = null;
+            return;
+        }
+
+        newNode.next = head;
     }
 
 
     public static void main(String[] args) {
 
-        
+
     }
 }
