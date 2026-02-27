@@ -30,6 +30,24 @@ public class ReverseALL {
         temp.next = newNode;
     }
 
+
+    static void reverse(){
+
+        Node prev = null;
+        Node curr = head;
+        Node next;
+
+
+        while(curr!=null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        head = prev;
+    }
+
     public static void main(String[] args) {
 
 //         Reverse a LinkedList (Iterative)
@@ -38,20 +56,7 @@ public class ReverseALL {
           add(3);
           add(4);
           add(5);
-
-          Node prev = null;
-          Node curr = head;
-          Node next;
-
-
-          while(curr!=null){
-              next = curr.next;
-              curr.next = prev;
-              prev = curr;
-              curr = next;
-          }
-
-        prev = head;
+          reverse();
 
         Node temp = head;
 
