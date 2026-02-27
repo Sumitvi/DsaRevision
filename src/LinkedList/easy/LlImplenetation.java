@@ -59,6 +59,9 @@ public class LlImplenetation {
             i++;
         }
 
+        newNode.next = temp.next;
+        temp.next = newNode;
+
 
     }
 
