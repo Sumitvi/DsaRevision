@@ -33,7 +33,10 @@ public class LlImplenetation {
 
 
     public void addLast(int data){
-        
+
+//        Create a New Node
+        Node newNode = new Node(data);
+
     }
 
 
