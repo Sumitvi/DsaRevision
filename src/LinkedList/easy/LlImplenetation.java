@@ -84,6 +84,14 @@ public class LlImplenetation {
 //        }
 
         LlImplenetation ll = new LlImplenetation();
+
+        ll.addFirst(1);
+        ll.addFirst(2);
+        ll.addFirst(4);
+        ll.addFirst(5);
+
+        ll.addInMiddle(3 , 2);
+
         
 
 
