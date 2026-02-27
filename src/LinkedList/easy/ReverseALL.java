@@ -39,6 +39,11 @@ public class ReverseALL {
           add(4);
           add(5);
 
+          Node prev = null;
+          Node curr = head;
+          Node next;
+
+          
 
 
 
