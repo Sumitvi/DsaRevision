@@ -4,7 +4,7 @@ public class ReverseALL {
 
     static class Node {
         int data;
-        MiddleNodeofLL.Node next;
+        ReverseALL.Node next;
 
         Node(int data) {
             this.data = data;
@@ -12,18 +12,18 @@ public class ReverseALL {
         }
     }
 
-    static MiddleNodeofLL.Node head;
+    static ReverseALL.Node head;
 
 
     static void add(int data) {
-        MiddleNodeofLL.Node newNode = new MiddleNodeofLL.Node(data);
+        ReverseALL.Node newNode = new ReverseALL.Node(data);
 
         if (head == null) {
             head = newNode;
             return;
         }
 
-        MiddleNodeofLL.Node temp = head;
+        ReverseALL.Node temp = head;
         while (temp.next != null) {
             temp = temp.next;
         }
@@ -33,7 +33,14 @@ public class ReverseALL {
     public static void main(String[] args) {
 
 //         Reverse a LinkedList (Iterative)
+          add(1);
+          add(2);
+          add(3);
+          add(4);
+          add(5);
 
-        
+
+
+
     }
 }
