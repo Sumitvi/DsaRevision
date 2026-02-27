@@ -27,6 +27,8 @@ public class LlImplenetation {
         }
 
         newNode.next = head;
+
+        head = newNode;
     }
 
 
