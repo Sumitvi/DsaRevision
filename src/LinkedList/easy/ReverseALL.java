@@ -58,6 +58,7 @@ public class ReverseALL {
           add(5);
           add(6);
           add(7);
+          add(8);
           reverse();
 
         Node temp = head;
