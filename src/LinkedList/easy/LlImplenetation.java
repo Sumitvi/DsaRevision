@@ -48,6 +48,11 @@ public class LlImplenetation {
     }
 
 
+    public void addInMiddle(int data , int idx){
+        
+    }
+
+
     public static void main(String[] args) {
 
         LlImplenetation ll = new LlImplenetation();
