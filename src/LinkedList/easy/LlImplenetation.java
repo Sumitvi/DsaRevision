@@ -53,7 +53,9 @@ public class LlImplenetation {
         LlImplenetation ll = new LlImplenetation();
         ll.addFirst(5);
         ll.addFirst(4);
-        
+
+        ll.addLast(1);
+        ll.addLast(2);
 
 
     }
