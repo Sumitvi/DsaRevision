@@ -15,10 +15,15 @@ public class LlImplenetation {
     public static Node head;
     public static Node tail;
 
-    
+//    ADD IN LinkedList
+
+    public void addFirst(int data){
+
+    }
 
 
     public static void main(String[] args) {
 
+        
     }
 }
