@@ -50,6 +50,7 @@ public class LlImplenetation {
 
     public void addInMiddle(int data , int idx){
 
+        Node newNode = new Node(data);
         Node temp = head;
         int i=0;
 
@@ -58,7 +59,7 @@ public class LlImplenetation {
             i++;
         }
 
-        
+
     }
 
 
