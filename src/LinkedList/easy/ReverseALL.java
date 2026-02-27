@@ -43,7 +43,10 @@ public class ReverseALL {
           Node curr = head;
           Node next;
 
-          
+
+          while(curr!=null){
+              next = curr.next;
+          }
 
 
 
