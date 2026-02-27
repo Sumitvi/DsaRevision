@@ -53,7 +53,9 @@ public class LlImplenetation {
         Node temp = head;
         int i=0;
 
-        
+        while( i < idx-1 ){
+            
+        }
     }
 
 
