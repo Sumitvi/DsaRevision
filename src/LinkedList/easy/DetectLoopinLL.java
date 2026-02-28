@@ -1,5 +1,7 @@
 package LinkedList.easy;
 
+import java.util.LinkedList;
+
 public class DetectLoopinLL {
 
     public boolean detectLoop(MiddleNodeofLL.Node head) {
@@ -23,6 +25,8 @@ public class DetectLoopinLL {
 
     public static void main(String[] args) {
 
+
+        LinkedList<Integer> ll = new LinkedList<>();
 
 
     }
