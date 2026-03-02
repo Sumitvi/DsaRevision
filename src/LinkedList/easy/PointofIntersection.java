@@ -9,6 +9,10 @@ public class PointofIntersection {
         LlImplenetation.Node ptr2 =head2;
 
         if(ptr1 == null || ptr2 == null){
+            return null;
+        }
+
+        while(ptr1!=ptr2){
             
         }
 
