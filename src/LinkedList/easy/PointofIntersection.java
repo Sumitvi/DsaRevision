@@ -22,6 +22,8 @@ public class PointofIntersection {
 
             if(ptr2!=null){
                 ptr2 = ptr2.next;
+            }else{
+                ptr2 = head1;
             }
         }
 
