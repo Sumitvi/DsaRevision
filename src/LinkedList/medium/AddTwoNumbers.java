@@ -29,8 +29,8 @@ public class AddTwoNumbers {
 
         }
         if(carry == 1) ptr.next = new LLImplenetation.Node(1);
-        
 
+        return res.next;
     }
     public static void main(String[] args) {
 
