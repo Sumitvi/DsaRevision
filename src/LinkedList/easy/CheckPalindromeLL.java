@@ -20,10 +20,13 @@ public class CheckPalindromeLL {
             int top = st.pop();
 
             if(head.data != top){
-                
+                return false;
             }
+
+            head = head.next;
         }
 
+        return true;
 
     }
 
