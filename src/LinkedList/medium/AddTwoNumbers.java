@@ -28,6 +28,8 @@ public class AddTwoNumbers {
             ptr = ptr.next;
 
         }
+        if(carry == 1) ptr.next = new LLImplenetation.Node(1);
+        
 
     }
     public static void main(String[] args) {
