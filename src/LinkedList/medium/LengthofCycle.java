@@ -18,6 +18,11 @@ public class LengthofCycle {
         return 0;
     }
 
+    static int countNodes(LLImplenetation.Node loopNode){
+        Node temp = 
+
+    }
+
 
 
         public static void main(String[] args) {
