@@ -15,6 +15,15 @@ public class CheckPalindromeLL {
             currNode = currNode.next;
         }
 
+        while (head!=null){
+
+            int top = st.pop();
+
+            if(head.data != top){
+                
+            }
+        }
+
 
     }
 
