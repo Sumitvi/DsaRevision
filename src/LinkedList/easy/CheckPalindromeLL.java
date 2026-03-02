@@ -10,6 +10,11 @@ public class CheckPalindromeLL {
         LlImplenetation.Node currNode = head;
         Stack<Integer> st = new Stack<>();
 
+        while(currNode!=null){
+            st.push(currNode.data);
+            currNode = currNode.next;
+        }
+
 
     }
 
