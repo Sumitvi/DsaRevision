@@ -19,6 +19,10 @@ public class PointofIntersection {
             }else{
                 ptr1 = head2;
             }
+
+            if(ptr2!=null){
+                ptr2 = ptr2.next;
+            }
         }
 
 
