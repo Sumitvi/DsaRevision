@@ -27,6 +27,8 @@ public class PointofIntersection {
             }
         }
 
+        return ptr1;
+
 
     }
 
