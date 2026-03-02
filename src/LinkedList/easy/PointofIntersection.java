@@ -13,7 +13,12 @@ public class PointofIntersection {
         }
 
         while(ptr1!=ptr2){
-            
+
+            if(ptr1!=null){
+                ptr1 = ptr1.next;
+            }else{
+                ptr1 = head2;
+            }
         }
 
 
