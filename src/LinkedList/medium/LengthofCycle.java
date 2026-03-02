@@ -11,9 +11,11 @@ public class LengthofCycle {
             fast = fast.next.next;
 
             if(slow == fast){
-                
+                return countNodes(slow);
             }
         }
+
+        return 0;
     }
 
 
