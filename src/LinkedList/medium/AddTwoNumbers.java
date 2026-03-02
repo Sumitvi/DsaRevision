@@ -6,6 +6,11 @@ public class AddTwoNumbers {
 
         LLImplenetation.Node res = new LLImplenetation.Node(0);
         LLImplenetation.Node ptr = res;
+        int carry = 0;
+
+        while(l1!=null && l2!=null){
+            
+        }
 
     }
     public static void main(String[] args) {
