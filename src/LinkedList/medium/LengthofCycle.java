@@ -3,8 +3,8 @@ package LinkedList.medium;
 public class LengthofCycle {
 
     static int lengthOfLoop(LLImplenetation.Node head) {
-        Node slow = head;
-        Node fast = head;
+        LLImplenetation.Node slow = head;
+        LLImplenetation.Node fast = head;
 
         while(fast!=null && fast.next!=null){
             
