@@ -23,8 +23,11 @@ public class LengthofCycle {
         int count = 0;
 
         while(temp!=loopNode){
-            
+            temp = temp.next;
+            count++;
         }
+
+        return count;
 
     }
 
