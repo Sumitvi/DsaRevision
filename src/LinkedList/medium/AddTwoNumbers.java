@@ -24,6 +24,9 @@ public class AddTwoNumbers {
             carry = sum / 10;
             sum = sum % 10;
 
+            ptr.next = new LLImplenetation.Node(sum);
+            ptr = ptr.next;
+
         }
 
     }
