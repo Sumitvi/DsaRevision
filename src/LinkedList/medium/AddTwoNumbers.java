@@ -20,6 +20,10 @@ public class AddTwoNumbers {
                 sum+=l2.data;
                 l2 = l2.next;
             }
+
+            carry = sum / 10;
+            sum = sum % 10;
+
         }
 
     }
