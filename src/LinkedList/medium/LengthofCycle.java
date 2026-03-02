@@ -19,7 +19,12 @@ public class LengthofCycle {
     }
 
     static int countNodes(LLImplenetation.Node loopNode){
-        Node temp = 
+        LLImplenetation.Node temp = loopNode;
+        int count = 0;
+
+        while(temp!=loopNode){
+            
+        }
 
     }
 
