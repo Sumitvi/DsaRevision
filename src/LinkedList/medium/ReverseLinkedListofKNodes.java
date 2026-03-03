@@ -19,6 +19,10 @@ public class ReverseLinkedListofKNodes {
         LLImplenetation.Node prev = null;
         LLImplenetation.Node next = null;
 
+        while(curr != null && count < k){
+            
+        }
+
 
 
     }
