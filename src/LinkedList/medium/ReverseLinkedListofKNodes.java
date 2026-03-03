@@ -7,7 +7,8 @@ public class ReverseLinkedListofKNodes {
         int count = 0;
 
         while (temp!=null && count < k){
-
+            temp = temp.next;
+            count++;
         }
 
 
