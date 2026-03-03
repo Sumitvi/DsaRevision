@@ -16,6 +16,11 @@ public class RotateLinkedList {
             len+=1;
         }
 
+        k = k % len;
+        
+//        making circular ll
+        curr.next = head;
+        curr = head;
 
     }
         public static void main(String[] args) {
