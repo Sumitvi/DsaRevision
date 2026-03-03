@@ -11,6 +11,9 @@ public class ReverseLinkedListofKNodes {
             count++;
         }
 
+        if(count < k){
+            return head;
+        }
 
 
     }
