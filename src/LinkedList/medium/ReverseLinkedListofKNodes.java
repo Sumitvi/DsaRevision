@@ -20,7 +20,10 @@ public class ReverseLinkedListofKNodes {
         LLImplenetation.Node next = null;
 
         while(curr != null && count < k){
-            
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
 
 
