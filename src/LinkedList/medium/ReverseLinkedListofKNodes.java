@@ -24,7 +24,10 @@ public class ReverseLinkedListofKNodes {
             curr.next = prev;
             prev = curr;
             curr = next;
+            count++;
         }
+
+        head.next = reverseKGroup(curr , k);
 
 
 
