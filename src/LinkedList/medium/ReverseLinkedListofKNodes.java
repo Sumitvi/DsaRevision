@@ -29,7 +29,7 @@ public class ReverseLinkedListofKNodes {
 
         head.next = reverseKGroup(curr , k);
 
-
+        return prev;
 
     }
 
