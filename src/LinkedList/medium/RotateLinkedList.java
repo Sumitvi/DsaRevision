@@ -11,7 +11,12 @@ public class RotateLinkedList {
         LLImplenetation.Node curr = head;
         int len = 0;
 
-        
+        while(curr.next!=null){
+            curr = curr.next;
+            len+=1;
+        }
+
+
     }
         public static void main(String[] args) {
 
