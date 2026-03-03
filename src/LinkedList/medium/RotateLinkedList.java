@@ -17,10 +17,17 @@ public class RotateLinkedList {
         }
 
         k = k % len;
-        
+
 //        making circular ll
         curr.next = head;
         curr = head;
+
+
+        for(int i=0; i<k; i++){
+            curr = curr.next;
+        }
+
+        
 
     }
         public static void main(String[] args) {
