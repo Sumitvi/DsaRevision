@@ -27,7 +27,11 @@ public class RotateLinkedList {
             curr = curr.next;
         }
 
-        
+        head = curr.next;
+        curr.next = null;
+
+        return head;
+
 
     }
         public static void main(String[] args) {
