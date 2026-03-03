@@ -15,6 +15,11 @@ public class ReverseLinkedListofKNodes {
             return head;
         }
 
+        LLImplenetation.Node curr = head;
+        LLImplenetation.Node prev = null;
+        LLImplenetation.Node next = null;
+
+
 
     }
 
