@@ -18,6 +18,7 @@ public class OddEvenNode {
             odd = odd.next;
 
             even.next = even.next.next;
+            even = even.next;
         }
 
     }
