@@ -23,6 +23,7 @@ public class OddEvenNode {
 
         odd.next = evenHead;
 
+        return head;
 
     }
 
