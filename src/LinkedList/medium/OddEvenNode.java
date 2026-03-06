@@ -12,7 +12,10 @@ public class OddEvenNode {
         LLImplenetation.Node even = head.next;
         LLImplenetation.Node evenHead = even;
 
-        while ()
+        while (even!=null && even.next!=null){
+
+            odd.next = odd.next.next;
+        }
 
     }
 
