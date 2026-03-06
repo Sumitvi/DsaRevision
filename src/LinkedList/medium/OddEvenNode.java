@@ -21,6 +21,9 @@ public class OddEvenNode {
             even = even.next;
         }
 
+        odd.next = evenHead;
+
+
     }
 
     public static void main(String[] args) {
