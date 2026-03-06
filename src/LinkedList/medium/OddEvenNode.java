@@ -10,6 +10,9 @@ public class OddEvenNode {
 
         LLImplenetation.Node odd = head;
         LLImplenetation.Node even = head.next;
+        LLImplenetation.Node evenHead = even;
+
+        while ()
 
     }
 
