@@ -15,6 +15,7 @@ public class OddEvenNode {
         while (even!=null && even.next!=null){
 
             odd.next = odd.next.next;
+            odd = odd.next;
         }
 
     }
