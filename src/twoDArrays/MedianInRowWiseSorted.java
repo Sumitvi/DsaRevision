@@ -1,6 +1,7 @@
 package twoDArrays;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MedianInRowWiseSorted {
 
@@ -25,6 +26,7 @@ public class MedianInRowWiseSorted {
 
         }
 
+        Collections.sort(list);
         int mid = list.size()/2;
         return list.get(mid);
     }
