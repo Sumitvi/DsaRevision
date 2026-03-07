@@ -21,6 +21,7 @@ public class MedianInRowWiseSorted {
 
         }
 
-        
+        int mid = list.size()/2;
+        return list.get(mid);
     }
 }
