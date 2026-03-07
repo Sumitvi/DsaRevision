@@ -10,7 +10,7 @@ public class MedianInRowWiseSorted {
                        {2, 6, 9},
                        {3, 6, 9}};
 
-        
+        System.out.println(median(mat));
 
     }
 
