@@ -56,7 +56,15 @@ public class myStack {
     public static void main(String[] args) {
 
         int n = 5;
-        myStack stack = new myStack(n);
+        myStack st = new myStack(n);
+        st.push(1);
+        st.push(2);
+        st.push(3);
+        st.printStack();
+        st.isEmpty();
+        st.push(4);
+        st.pop();
+        st.printStack();
 
     }
 }
