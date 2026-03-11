@@ -34,6 +34,12 @@ public class myStack {
         return false;
     }
 
+    public int peek(){
+        if(isEmpty()){
+            System.out.println("Stack is Empty");
+        }
+    }
+
 
     public static void main(String[] args) {
 
