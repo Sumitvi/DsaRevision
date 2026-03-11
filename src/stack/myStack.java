@@ -18,4 +18,10 @@ public class myStack {
         top = top + 1;
         arr[top] = x;
     }
+
+    public int pop(){
+        if(top == -1) return  -1;
+
+        
+    }
 }
