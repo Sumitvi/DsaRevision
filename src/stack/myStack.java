@@ -26,11 +26,19 @@ public class myStack {
 
     }
 
+    public boolean isEmpty(){
+        if(top == -1){
+            return true;
+        }
+
+        return false;
+    }
+
 
     public static void main(String[] args) {
 
         int n = 5;
         myStack stack = new myStack(n);
-        
+
     }
 }
