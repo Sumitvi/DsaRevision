@@ -37,8 +37,13 @@ public class myStack {
     public int peek(){
         if(isEmpty()){
             System.out.println("Stack is Empty");
+            return Integer.MIN_VALUE;
         }
+
+        return arr[top];
     }
+
+    
 
 
     public static void main(String[] args) {
