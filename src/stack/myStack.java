@@ -9,4 +9,13 @@ public class myStack {
        arr = new int[1000];
        top = -1;
     }
+
+    public void push(int x){
+        if(top > 1000) {
+            System.out.println("Value Exceed");
+        }
+
+        top = top + 1;
+        arr[top] = x;
+    }
 }
