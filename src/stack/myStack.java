@@ -43,7 +43,14 @@ public class myStack {
         return arr[top];
     }
 
-    
+    public void printStack(){
+        System.out.println("Printing Stack");
+
+        for(int i=0; i<=top; i++){
+            System.out.print(arr[top]);
+        }
+        System.out.println();
+    }
 
 
     public static void main(String[] args) {
